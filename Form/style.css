@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+fieldset {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+legend {
+    font-weight: bold;
+}
+label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], select, textarea {
+    padding: 5px;
+}
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+}
+textarea {
+    height: 90px;
+}
+.buttons {
+    text-align: center;
+}
+.buttons input {
+    margin: 15px;
+    padding: 10px 20px;
+}
